@@ -4,6 +4,8 @@ import joblib
 import numpy as np
 import pandas as pd
 import streamlit as st
+import os
+os.chdir(os.path.dirname(os.path.abspath(file)))
 
 # -------------------------------------------------------------------------
 # 1. Page Configuration & Emerald-Gold Glassmorphism Theme
