@@ -136,3 +136,18 @@ streamlit run App.py
 ## Tech stack
 
 Python • pandas • NumPy • scikit-learn • Streamlit • joblib
+
+---
+
+## 🌐 Live Web Application & Interactive Demo
+
+This project is deployed on Streamlit Community Cloud and is accessible online without requiring local setup or environment configuration:
+
+🔗 Direct Web Application Link:  
+👉 [Corporate Bankruptcy Risk Intelligence Platform](https://bankruptcy-prediction-mrhk.streamlit.app/)
+
+### 🚀 Key Dashboard Features:
+* Batch Audit & Multi-Firm Screening: Upload corporate financial records via CSV for immediate, automated risk scoring across multiple entities.
+* Scenario Stress Testing: Perform sensitivity analysis by dynamically tuning key financial ratios via sliders to evaluate immediate risk score variations.
+* Policy & Threshold Calibration: Adjust the classification decision threshold (calibrated at 0.40) to prioritize distressed firm detection (high Recall) against false alarm tolerances.
+* Automated Inference Pipeline: Full end-to-end integration covering preprocessing, feature scaling, and calibrated Random Forest scoring.
