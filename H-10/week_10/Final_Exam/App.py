@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import os
-os.chdir(os.path.dirname(os.path.abspath(file)))
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # -------------------------------------------------------------------------
 # 1. Page Configuration & Emerald-Gold Glassmorphism Theme
